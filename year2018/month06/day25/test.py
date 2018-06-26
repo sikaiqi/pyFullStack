@@ -21,3 +21,7 @@ salary:%f
 ''' %(name,name,age,job,salary)
 
 print(msg)
+
+a ="22"
+b = "2"
+print(a*b)
