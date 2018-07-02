@@ -43,3 +43,17 @@ d = [4,5,6]
 c.extend(d)
 print(c)
 print(d)
+
+# index 方法(从左往右匹配的第一个索引)
+
+f = [1,3,54,778,3,4,54,56,33,2]
+print(f.index(54))
+
+#reverse 方法
+f.reverse();
+print(f)
+
+#sort 方法
+f.sort()
+print(f)
+
