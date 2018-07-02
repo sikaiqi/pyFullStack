@@ -21,3 +21,25 @@ a[1] ="99"
 print(a)
 a[2:4]=["aa","bb","cc"]
 print(a)
+
+#删除 remove pop  del
+a.remove(a[0])
+print(a)
+val = a.pop(0)
+print(val)
+print(a)
+del(a[0])
+print(a)
+# del(a)
+# print(a)
+
+## count计数
+b = ["to", "be","or", "not", "to", "be"]
+print(b.count("be"))
+
+# extend 方法
+c = [1,2,3]
+d = [4,5,6]
+c.extend(d)
+print(c)
+print(d)

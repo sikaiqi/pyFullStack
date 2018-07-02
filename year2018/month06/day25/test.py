@@ -25,3 +25,13 @@ print(msg)
 a ="22"
 b = "2"
 print(a*b)
+
+#测试while 循环
+a=0
+b=9
+while(a<b):
+    print("a="+str(a),"b="+str(b))
+    a +=1
+else:
+    print(type(a))
+    print("执行完成")
