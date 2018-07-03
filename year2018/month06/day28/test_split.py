@@ -37,7 +37,7 @@ print(a)
 b = ["to", "be","or", "not", "to", "be"]
 print(b.count("be"))
 
-# extend 方法
+# extend 方法 和 “+” 号（+号返回的是新的列表，原有的列表都不变）
 c = [1,2,3]
 d = [4,5,6]
 c.extend(d)
@@ -54,6 +54,10 @@ f.reverse();
 print(f)
 
 #sort 方法
-f.sort()
+# f.sort()
+# print(f)
+
+g = sorted(f)
 print(f)
+print(g)
 
