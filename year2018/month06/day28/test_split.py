@@ -25,7 +25,7 @@ print(a)
 #删除 remove pop  del
 a.remove(a[0])
 print(a)
-val = a.pop(0)
+val = a.pop(0) #pop 若不指定索引，默认删最后一个元素
 print(val)
 print(a)
 del(a[0])
